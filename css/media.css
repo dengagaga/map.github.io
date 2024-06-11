@@ -1,0 +1,261 @@
+@media(max-width: 1540px) {
+    .tooltip_venezuela {
+        top: 40%;
+        left: 18%;
+    }
+
+    .tooltip_dominicana {
+        top: 42%;
+        left: 21%;
+    }
+}
+@media(max-width: 1700px) {
+    .tooltip_brazil {
+        top: 66%;
+        left: 33%;
+    }
+    .tooltip_africa {
+        top: 55%;
+        left: 52%;
+    }
+    .tooltip_turkey {
+        top: 45%;
+        left: 52%;
+    }
+    .tooltip_latvia {
+        top: 34%;
+        left: 50%;
+    }
+    .tooltip_portugal {
+        top: 44%;
+        left: 41.7%;
+    }
+    .tooltip_gb {
+        top: 36%;
+        left: 44%;
+    }
+    .tooltip_usa {
+        top: 41%;
+        left: 22%;
+    }
+    .tooltip_dominicana {
+        top: 52%;
+        left: 26%;
+    }
+    .tooltip_venezuela {
+        top: 59%;
+        left: 28%;
+    }
+}
+@media(max-width: 1400px) {
+    .tooltip h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .tooltip_usa {
+        top: 44%;
+        left: 20%;
+    }
+    .tooltip_portugal {
+        top: 44.3%;
+        left: 41.5%;
+    }
+    .tooltip_gb {
+        top: 36%;
+        left: 44.2%;
+    }
+    .tooltip_brazil {
+        top: 66%;
+        left: 32%;
+    }
+    .tooltip_venezuela {
+        top: 58.5%;
+        left: 28%;
+    }
+    .tooltip_dominicana {
+        top: 52%;
+        left: 26%;
+    }
+    .section_map {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 1120px) {
+    /* .tooltip_gb {
+        top: 24%;
+        left: 41%;
+    }
+
+    .tooltip_portugal {
+        top: 30%;
+        left: 37%;
+    }
+
+    .tooltip_venezuela {
+        top: 39%;
+        left: 17%;
+    }
+
+    .tooltip_dominicana {
+        top: 41%;
+        left: 20%;
+    } */
+    .tooltip_africa {
+        top: 54%;
+        left: 51%;
+    }
+    .tooltip_portugal {
+        top: 44.3%;
+        left: 39.5%;
+    }
+    .tooltip_latvia {
+        top: 37%;
+        left: 49%;
+    }
+    .tooltip_brazil {
+        top: 63%;
+        left: 29%;
+    }
+    .tooltip_venezuela {
+        top: 56%;
+        left: 23%;
+    }
+    .tooltip_dominicana {
+        top: 50%;
+        left: 21%;
+    }
+    .tooltip_usa {
+        top: 44%;
+        left: 15%;
+    }
+}
+
+@media(max-width: 960px) {
+    /* .tooltip_turkey {
+        top: 31%;
+        left: 44%;
+    }
+
+    .tooltip_venezuela {
+        top: 38%;
+        left: 17%;
+    }
+
+    .tooltip_usa {
+        top: 32%;
+        left: 12%;
+    }
+
+    .tooltip_dominicana {
+        top: 40%;
+        left: 19%;
+    } */
+    .tooltip_africa {
+        top: 52%;
+        left: 50%;
+    }
+    .tooltip_turkey {
+        top: 45%;
+        left: 51%;
+    }
+    .tooltip_latvia {
+        top: 38%;
+        left: 48%;
+    }
+    .tooltip_portugal {
+        top: 44.3%;
+        left: 38.5%;
+    }
+    .tooltip_brazil {
+        top: 61%;
+        left: 28%;
+    }
+    .tooltip_venezuela {
+        top: 54%;
+        left: 22%;
+    }
+}
+
+@media(max-width: 860px) {
+    /* .tooltip h2 {
+        font-size: 14px;
+    }
+
+    .tooltip_latvia {
+        top: 21%;
+        left: 45%;
+    }
+    .tooltip_portugal {
+        top: 28%;
+        left: 36%;
+    }
+
+    .tooltip_gb {
+        top: 21%;
+        left: 39%;
+    } */
+}
+
+@media(max-width: 767px) {
+    .nav_all {
+        display: none;
+    }
+    .section_about {
+        margin-top: 0;
+    }
+    .header {
+        padding: 15px 0;
+    }
+
+    .map_content {
+        display: none;
+    }
+
+    .accordion {
+        display: block;
+    }
+    
+    .header {
+        position: static;
+        box-shadow: 0px -8px 34px -9px rgba(44, 49, 158, 0.35),0px 4px 52px 12px rgba(74, 105, 176, 0.19);
+    }
+
+    .section_map {
+        padding: 35px 0 60px;
+    }
+
+    .about_content {
+        flex-direction: column-reverse;
+    }
+
+    .about_col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_col-img {
+        margin-bottom: 25px;
+    }
+
+    .about_col p {
+        font-size: 16px;
+    }
+
+    .section_title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .section_about {
+        background: #1A1B1F;
+    }
+
+    .box_logo {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+} 
