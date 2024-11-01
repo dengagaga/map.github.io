@@ -213,6 +213,9 @@
 }
 
 @media(max-width: 767px) {
+    .section_about {
+        margin-top: 35px;
+    }
     .nav_all {
         display: none;
     }
