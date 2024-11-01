@@ -15,8 +15,8 @@
         left: 26%;
     }
     .tooltip_africa {
-        top: 44%;
-        left: 51%;
+        top: 48%;
+        left: 53.5%;
     }
     .tooltip_turkey {
         top: 41%;
@@ -47,10 +47,32 @@
         left: 22%;
     }
 }
+@media(max-width: 1600px) {
+    .tooltip_latvia {
+        top: 30%;
+        left: 51%;
+    }
+    .tooltip_turkey {
+        top: 40%;
+        left: 55%;
+    }
+    .tooltip_gb {
+        top: 27%;
+        left: 42%;
+    }
+    .tooltip_portugal {
+        top: 33.3%;
+        left: 41.5%;
+    }
+}
 @media(max-width: 1440px) {
     .map {
         width: 100%;
-        height: 133vh;
+        height: 117vh;
+    }
+    .tooltip_turkey {
+        top: 41%;
+        left: 54%;
     }
     .tooltip h2 {
         font-size: 18px;
@@ -61,7 +83,7 @@
         left: 14%;
     }
     .tooltip_portugal {
-        top: 35.3%;
+        top: 36.3%;
         left: 40.5%;
     }
     .tooltip_gb {
@@ -77,23 +99,31 @@
         left: 21%;
     }
     .tooltip_africa {
-        top: 43%;
-        left: 50%;
+        top: 48%;
+        left: 53%;
     }
     .tooltip_latvia {
-        top: 32%;
+        top: 33%;
         left: 50%;
     }
     .tooltip_dominicana {
         top: 46%;
         left: 16%;
     }
- 
+    .tooltip {
+
+        max-width: 140px;
+
+    }
 }
 @media(max-width: 1366px) {
     .tooltip_usa {
         top: 37%;
         left: 13%;
+    }
+    .tooltip_africa {
+        top: 48%;
+        left: 52%;
     }
     .tooltip_portugal {
         top: 34.6%;
@@ -129,8 +159,8 @@
         left: 20%;
     } */
     .tooltip_africa {
-        top: 43%;
-        left: 48%;
+        top: 47%;
+        left: 50%;
     }
     .tooltip_portugal {
         top: 36.3%;
