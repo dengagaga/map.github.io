@@ -9,78 +9,105 @@
         left: 21%;
     }
 }
-@media(max-width: 1700px) {
+@media(max-width: 1740px) {
     .tooltip_brazil {
-        top: 66%;
-        left: 33%;
+        top: 53%;
+        left: 26%;
     }
     .tooltip_africa {
-        top: 55%;
-        left: 52%;
+        top: 44%;
+        left: 51%;
     }
     .tooltip_turkey {
-        top: 45%;
-        left: 52%;
+        top: 41%;
+        left: 55%;
     }
     .tooltip_latvia {
-        top: 34%;
-        left: 50%;
+        top: 32%;
+        left: 51%;
     }
     .tooltip_portugal {
-        top: 44%;
+        top: 35%;
         left: 41.7%;
     }
     .tooltip_gb {
-        top: 36%;
-        left: 44%;
+        top: 30%;
+        left: 42%;
     }
     .tooltip_usa {
-        top: 41%;
-        left: 22%;
+        top: 38%;
+        left: 14%;
     }
     .tooltip_dominicana {
-        top: 52%;
-        left: 26%;
+        top: 46%;
+        left: 16.5%;
     }
     .tooltip_venezuela {
-        top: 59%;
-        left: 28%;
+        top: 48%;
+        left: 22%;
     }
 }
-@media(max-width: 1400px) {
+@media(max-width: 1440px) {
+    .map {
+        width: 100%;
+        height: 133vh;
+    }
     .tooltip h2 {
         font-size: 18px;
         font-weight: 400;
     }
     .tooltip_usa {
-        top: 44%;
-        left: 20%;
+        top: 38%;
+        left: 14%;
     }
     .tooltip_portugal {
-        top: 44.3%;
-        left: 41.5%;
+        top: 35.3%;
+        left: 40.5%;
     }
     .tooltip_gb {
-        top: 36%;
-        left: 44.2%;
+        top: 30%;
+        left: 41.2%;
     }
     .tooltip_brazil {
-        top: 66%;
-        left: 32%;
+        top: 53%;
+        left: 25%;
     }
     .tooltip_venezuela {
-        top: 58.5%;
-        left: 28%;
+        top: 47.5%;
+        left: 21%;
+    }
+    .tooltip_africa {
+        top: 43%;
+        left: 50%;
+    }
+    .tooltip_latvia {
+        top: 32%;
+        left: 50%;
     }
     .tooltip_dominicana {
-        top: 52%;
-        left: 26%;
+        top: 46%;
+        left: 16%;
     }
-    .section_map {
-        padding-top: 50px;
+ 
+}
+@media(max-width: 1366px) {
+    .tooltip_usa {
+        top: 37%;
+        left: 13%;
+    }
+    .tooltip_portugal {
+        top: 34.6%;
+        left: 40.5%;
+    }
+    .tooltip_latvia {
+        top: 31%;
+        left: 50%;
+    }
+    .tooltip_gb {
+        top: 27.5%;
+        left: 40.3%;
     }
 }
-
 @media(max-width: 1120px) {
     /* .tooltip_gb {
         top: 24%;
@@ -102,32 +129,43 @@
         left: 20%;
     } */
     .tooltip_africa {
-        top: 54%;
-        left: 51%;
+        top: 43%;
+        left: 48%;
     }
     .tooltip_portugal {
-        top: 44.3%;
-        left: 39.5%;
+        top: 36.3%;
+        left: 38.5%;
     }
     .tooltip_latvia {
-        top: 37%;
-        left: 49%;
+        top: 33%;
+        left: 48%;
     }
     .tooltip_brazil {
-        top: 63%;
-        left: 29%;
+        top: 50%;
+        left: 25%;
     }
     .tooltip_venezuela {
-        top: 56%;
-        left: 23%;
+        top: 46%;
+        left: 20%;
+    }
+    .tooltip_gb {
+        top: 30.5%;
+        left: 38.3%;
     }
     .tooltip_dominicana {
-        top: 50%;
-        left: 21%;
+        top: 45%;
+        left: 14%;
     }
     .tooltip_usa {
-        top: 44%;
-        left: 15%;
+        top: 37%;
+        left: 12%;
+    }
+    .tooltip_turkey {
+        top: 40%;
+        left: 51%;
+    }
+    .section_map {
+        margin-top: -43px;
     }
 }
 
@@ -151,30 +189,7 @@
         top: 40%;
         left: 19%;
     } */
-    .tooltip_africa {
-        top: 52%;
-        left: 50%;
-    }
-    .tooltip_turkey {
-        top: 45%;
-        left: 51%;
-    }
-    .tooltip_latvia {
-        top: 38%;
-        left: 48%;
-    }
-    .tooltip_portugal {
-        top: 44.3%;
-        left: 38.5%;
-    }
-    .tooltip_brazil {
-        top: 61%;
-        left: 28%;
-    }
-    .tooltip_venezuela {
-        top: 54%;
-        left: 22%;
-    }
+
 }
 
 @media(max-width: 860px) {
@@ -221,9 +236,9 @@
         box-shadow: 0px -8px 34px -9px rgba(44, 49, 158, 0.35),0px 4px 52px 12px rgba(74, 105, 176, 0.19);
     }
 
-    .section_map {
+    /* .section_map {
         padding: 35px 0 60px;
-    }
+    } */
 
     .about_content {
         flex-direction: column-reverse;
@@ -259,3 +274,40 @@
         display: block;
     }
 } 
+@media(max-width:1730px) {
+    .section_map {
+        margin-top: -60px;
+    }
+    .section_about {
+        margin-top: -270px;
+
+    }
+}
+@media(max-width:1366px) {
+    .section_map {
+        margin-top: -20px;
+    }
+    .map  {
+        height: 120vh;
+    }
+    .section_about {
+        margin-top: -240px;
+
+    }
+    
+}
+@media(max-width:1250px) {
+    .section_map {
+        margin-top: -60px;
+    }
+}
+@media(max-width:1024px) {
+    .section_map {
+        margin-top: -80px;
+    }
+}
+@media(max-width:925px) {
+    .section_map {
+        margin-top: -140px;
+    }
+}

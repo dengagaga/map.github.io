@@ -12,19 +12,24 @@
 }
 
 .header {
-	
+	background-image: url(../img/nav.png);
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
 	width: 100%;
 	top: 0;
 	z-index: 3;
-	background-color: #ffffff1f;
+	/* background-color: #ffffff1f; */
 }
 .map {
 	height: 95vh;
 }
 .map {
 	fill:#262d5f;
-	margin-top: -50px;
+	/* margin-top: -40px; */
+	/* height: 100%; */
+	object-fit: cover;
 }
 .burger {
 	display: none;
@@ -56,10 +61,11 @@
 }
 
 .section_map {
-	padding-top: 80px;
+	/* padding-top: 80px; */
 }
 .nav_all {
-	border-bottom: 1px solid #171931;
+
+	border-bottom: 1px solid #CBCBCB;
 	
 }
 .nav {
@@ -68,12 +74,13 @@
 	padding-top: 30px;
 	justify-content: center;
 	align-items: center;
-	background-color: #ffffffc4;
+	/* background-color: #ffffffc4; */
 	padding-bottom: 20px;
 }
 .nav_link {
-	font-size: 20px;
+	font-size: 24px;
 	color: black;
+	font-weight: 400;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all .3s;
@@ -83,6 +90,7 @@
 }
 .map {
 	width: 100%;
+	height: 110vh;
 	display: block;
 	object-fit: contain;
 }
@@ -97,7 +105,8 @@
 	cursor: pointer;
 	position: absolute;
 	text-align: center;
-	width: min-content;
+	width: 100%;
+	max-width: 149px;
 	background: linear-gradient(180deg, rgb(255, 255, 255) 24.607%, rgb(197, 197, 197) 100%);
 	z-index: 2;
 	border-radius: 5px;
@@ -115,6 +124,7 @@
 	height: 10px;
 	background: #c7c7c7;
 	bottom: -5px;
+	left:70px;
 	z-index: -1;
 	transform: rotate(45deg);
 }
@@ -126,7 +136,7 @@
 	/* min-width: 60px; */
 }
 .tooltip h2 {
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
@@ -135,7 +145,7 @@
 	bottom: 115%;
 	background: linear-gradient(180deg, rgb(255, 255, 255) 24.607%, rgb(197, 197, 197) 100%);
 	border-radius: 5px;
-	width: 300px;
+	width: 280px;
 	left: -50%;
 	padding: 10px;
 	/* display: none; */
@@ -143,19 +153,42 @@
 	opacity: 0;
 	z-index: -1;
 	pointer-events: none;
+	transition: all  .3s;
 }
-
+.tooltip_modal_top{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #97979766;
+	padding-bottom: 7px;
+	margin-bottom: 8px;
+}
+.tooltip_modal_top h4 {
+	font-size: 10px;
+	font-weight: 700;
+}
+.tooltip_modal_top p {
+	font-size: 10px;
+	font-weight: 400;
+	text-align: left;
+}
+.tooltip_modal_top a {
+	color: #979797;
+	font-size: 10px;
+	font-weight: 500;
+}
 .tooltip_modal span {
-	font-size: 12px;
+	font-size: 10px;
 	text-align: start;
 	display: inline-block;
 	font-family: "Helvetica";
+	transition: all  .3s;
 }
 
 .tooltip_content:hover .tooltip_modal {
 	/* display: block; */
 	opacity: 1;
 	z-index: 5;
+	transition: all  .3s;
 }
 
 .tooltip:hover {
@@ -163,18 +196,18 @@
 }
 
 .tooltip_usa {
-	top: 44%;
-	left: 25%;
+	top: 36%;
+	left: 17%;
 }
 
 .tooltip_venezuela {
-	top: 59%;
-	left: 31%;
+	top: 48%;
+	left: 24%;
 }
 
 .tooltip_dominicana {
-	top: 54%;
-	left: 30%;
+	top: 46.5%;
+    left: 19%;
 }
 #USA, #turkey, #brazil, #venezuela, #latvia, #gb, #portugal, #dominic, #africa {
 	transition: all .6s;
@@ -206,32 +239,32 @@
 
 
 .tooltip_brazil {
-	top: 66%;
-	left: 35%;
+	top: 56%;
+	left: 27%;
 }
 
 .tooltip_gb {
-	top: 34%;
-	left: 45%;
+	top: 27%;
+	left: 42.6%;
 }
 
 .tooltip_latvia {
-	top: 34%;
-	left: 49.5%;
+	top: 29%;
+	left: 51%;
 }
 
 .tooltip_portugal {
-	top: 44%;
-	left: 42.7%;
+	top: 34%;
+	left: 41.9%;
 }
 
 .tooltip_turkey {
-	top: 44%;
-	left: 52%;
+	top: 39%;
+	left: 54%;
 }
 
 .tooltip_africa {
-	top: 55%;
+	top: 43%;
 	left: 51%;
 }
 
@@ -293,10 +326,11 @@
 }
 
 .section_about {
-	margin-top: -150px;
+	margin-top: -230px;
     position: relative;
     z-index: 20;
 	padding: 60px 0;
+	box-shadow: -3px -44px 34px 44px rgba(0, 0, 0, 0.2);
 	background: linear-gradient(104.26deg, rgb(11, 19, 49) 0%, rgb(21, 23, 47) 56.811%), rgb(217, 217, 217);
 }
 
