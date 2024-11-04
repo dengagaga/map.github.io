@@ -158,6 +158,10 @@
         top: 41%;
         left: 20%;
     } */
+
+    .map {
+        height: 115vh;
+    }
     .tooltip_africa {
         top: 47%;
         left: 50%;
