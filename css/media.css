@@ -158,7 +158,9 @@
         top: 41%;
         left: 20%;
     } */
-
+.tooltip_content:before {
+        left: 58px;
+}
     .map {
         height: 115vh;
     }
