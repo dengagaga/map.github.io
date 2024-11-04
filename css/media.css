@@ -352,6 +352,36 @@
     .section_map {
         margin-top: -80px;
     }
+    .map  {
+        height: 115vh;
+    }
+    .tooltip_turkey {
+        top: 39%;
+        left: 52%;
+    }
+    .tooltip_brazil {
+        top: 52%;
+        left: 24%;
+    }
+    .tooltip_dominicana {
+        top: 45%;
+        left: 15%;
+    }
+    .tooltip_portugal {
+        top: 37.3%;
+        left: 39.5%;
+    }
+    .tooltip_gb {
+        top: 32.5%;
+        left: 39.3%;
+    }
+    .tooltip_latvia {
+        top: 34%;
+        left: 49%;
+    }
+    .tooltip {
+        max-width: 114px;
+    }
 }
 @media(max-width:925px) {
     .section_map {
