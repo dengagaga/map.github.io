@@ -197,6 +197,9 @@
     .section_map {
         margin-top: -43px;
     }
+    .tooltip {
+        max-width: 119px;
+    }
 }
 
 @media(max-width: 960px) {
