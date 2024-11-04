@@ -207,7 +207,12 @@
         max-width: 119px;
     }
 }
-
+@media(max-width: 1024px) {
+        .tooltip_africa {
+        top: 46%;
+        left: 52%;
+    }
+}
 @media(max-width: 960px) {
     /* .tooltip_turkey {
         top: 31%;
